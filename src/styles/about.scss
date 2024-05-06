@@ -1,0 +1,111 @@
+.about {
+  width: 100%;
+  margin-top: 100px;
+  &__container {
+    width: 1250px;
+    margin: 50px auto;
+  }
+  &__boxes {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 50px;
+  }
+  &__title {
+    /* Biz haqimizda */
+
+    font-family: "Poppins";
+    font-style: normal;
+    font-weight: 600;
+    font-size: 54px;
+    line-height: 64px;
+    /* identical to box height, or 119% */
+    text-align: justify;
+    letter-spacing: 0.06em;
+
+    color: #000000;
+
+    /* Inside auto layout */
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+    margin-bottom: 22px;
+  }
+  &__text {
+    /* Lorem ipsum dolor sit amet consectetur. Pulvinar senectus elit diam arcu faucibus ultrices mauris cursus. Risus in eu dui luctus enim */
+
+    width: 505px;
+    height: 78px;
+
+    font-family: "Poppins";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 26px;
+    /* or 162% */
+
+    /* Text2 */
+    color: #000000;
+
+    /* Inside auto layout */
+    flex: none;
+    order: 1;
+    flex-grow: 0;
+  }
+  &__cards {
+    margin-top: 150px;
+    margin-bottom: 180px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+  &__card {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+    padding: 34px 50px;
+    width: 269px;
+    height: 230px;
+    border: 1px solid rgba(0, 0, 0, 0.3);
+    border-radius: 4px;
+    text-align: center;
+    transition: all 0.3s ease-in-out;
+    &:hover{
+        background-color: rgb(49, 198, 221);
+    }
+    &-title {
+      font-family: "Inter";
+      font-style: normal;
+      font-weight: 700;
+      font-size: 32px;
+      line-height: 30px;
+      /* identical to box height, or 94% */
+      letter-spacing: 0.04em;
+
+      color: #000000;
+
+      /* Inside auto layout */
+      flex: none;
+      order: 0;
+      flex-grow: 0;
+    }
+    &-text {
+      font-family: "Poppins";
+      font-style: normal;
+      font-weight: 400;
+      font-size: 16px;
+      line-height: 24px;
+      /* identical to box height, or 150% */
+      text-align: center;
+
+      color: #000000;
+
+      /* Inside auto layout */
+      flex: none;
+      order: 1;
+      flex-grow: 0;
+    }
+  }
+}

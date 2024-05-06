@@ -1,0 +1,145 @@
+.newproduct {
+  width: 100%;
+  margin-top: 120px;
+  &__container {
+    width: 1250px;
+    margin: auto;
+  }
+  &__boxes {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 1250px;
+    margin: auto;
+    gap: 50px;
+  }
+  &__title {
+    font-family: "Inter";
+    font-style: normal;
+    font-weight: 600;
+    font-size: 36px;
+    line-height: 48px;
+    letter-spacing: 0.04em;
+    color: #000000;
+    margin-bottom: 50px;
+  }
+  &__left {
+    position: relative;
+
+    width: 50%;
+    height: 600px;
+    background: url(../../../assets/Images/pess.png) no-repeat #000 center
+      bottom;
+  }
+  &__left div {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    position: absolute;
+    bottom: 50px;
+    left: 50px;
+  }
+  &__subtitle {
+    /* PlayStation 5 */
+
+    height: 24px;
+
+    /* Heading/24PX SemiBold */
+    font-family: "Inter";
+    font-style: normal;
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 24px;
+    /* identical to box height, or 100% */
+    letter-spacing: 0.03em;
+
+    /* Text */
+    color: #fafafa;
+
+    /* Inside auto layout */
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+  }
+  &__text {
+    /* Black and White version of the PS5 coming out on sale. */
+
+    width: 242px;
+    height: 42px;
+
+    /* Title/14PX Regular */
+    font-family: "Poppins";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 21px;
+    /* or 150% */
+
+    /* Text */
+    color: #fafafa;
+
+    /* Inside auto layout */
+    flex: none;
+    order: 1;
+    flex-grow: 0;
+  }
+  &__link {
+    /* Shop Now */
+
+    width: 81px;
+    height: 24px;
+
+    /* Title/16PX Medium */
+    font-family: "Poppins";
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 24px;
+    /* identical to box height, or 150% */
+    text-decoration: underline;
+    color: #ffffff;
+
+    /* Inside auto layout */
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+  }
+  &__right {
+    width: 50%;
+    height: 600px;
+    &-top {
+      position: relative;
+      width: 100%;
+      background: #100f0f url(./../../../assets/Images/madam.png) no-repeat
+        center bottom;
+      height: 50%;
+    }
+    &-top div {
+      display: flex;
+      flex-direction: column;
+      gap: 10px;
+      position: absolute;
+      left: 50px;
+      bottom: 50px;
+    }
+    &-bottom {
+      margin-top: 30px;
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      gap: 10px;
+    }
+    &-middle {
+      position: relative;
+      width: 49%;
+      height: 270px;
+      background: #100f0f url(../../../assets/Images/trio.png) no-repeat center
+        bottom;
+    }
+    &-middle div {
+      position: absolute;
+      bottom: 25px;
+      left: 25px;
+    }
+  }
+}

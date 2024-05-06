@@ -1,0 +1,42 @@
+.allproduct {
+  width: 100%;
+  margin-top: 100px;
+  &__container {
+    width: 1250px;
+    margin: auto;
+  }
+  &__title {
+    width: 443px;
+    /* Heading/36PX SemiBold */
+    font-family: "Inter";
+    font-style: normal;
+    font-weight: 600;
+    font-size: 36px;
+    line-height: 48px;
+    /* identical to box height, or 133% */
+    letter-spacing: 0.04em;
+    color: #000000;
+  }
+  &__cards {
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    justify-content: space-between;
+  }
+  &__card {
+    margin-top: 50px;
+    width: 270px;
+    height: 350px;
+  }
+  &__new {
+    background-color: rgb(118, 187, 14);
+  }
+  &__subtitle {
+    width: 100%;
+    margin: 12px 0 ;
+  }
+  &__btn {
+    width: 250px ;
+    margin: 50px 500px;
+  }
+}

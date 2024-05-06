@@ -1,0 +1,158 @@
+.contact {
+  width: 100%;
+  margin-top: 100px;
+  &__container {
+    width: 1250px;
+    margin: 50px auto;
+  }
+  &__link {
+    /* Title/14PX Regular */
+    font-family: "Poppins";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 21px;
+    /* identical to box height, or 150% */
+
+    /* Text2 */
+    color: #000000;
+
+    /* Inside auto layout */
+    flex: none;
+    order: 2;
+    flex-grow: 0;
+    margin-left: 5px;
+  }
+  &__home {
+    font-family: "Poppins";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 21px;
+    /* Text2 */
+    color: #000000;
+
+    opacity: 0.5;
+
+    /* Inside auto layout */
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+  }
+  &__boxes {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 50px;
+  }
+  &__left {
+    padding: 40px;
+    width: 380px;
+    height: 440px;
+    background: #ffffff;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.25);
+  }
+  &__form {
+    padding: 40px;
+    width: 815px;
+    height: 440px;
+
+    background: #ffffff;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.25);
+  }
+  &__box {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+  }
+  &__box span {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    background-color: rgb(19, 111, 186);
+    color: white;
+    font-size: 22px;
+  }
+  &__box p {
+    font-family: "Poppins";
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 24px;
+    /* identical to box height, or 150% */
+
+    color: #000000;
+
+    /* Inside auto layout */
+    flex: none;
+    order: 1;
+    flex-grow: 0;
+  }
+  &__left div p {
+    font-family: "Poppins";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 21px;
+    color: #000000;
+    margin: 10px 0;
+  }
+  &__hr {
+    margin: 50px 0;
+  }
+  &__input {
+    /* Group 1000005946 */
+
+    width: 360px;
+    height: 50px;
+    padding: 13px 269px 13px 13px;
+    background: rgba(217, 217, 217, 0.5);
+    border-radius: 5px;
+    font-family: "Poppins";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    color: #000000;
+    opacity: 0.5;
+    outline: none;
+    border: none;
+  }
+  &__form div {
+    display: flex;
+    gap: 16px;
+  }
+  &__textarea {
+    /* Rectangle 44 */
+    width: 737px;
+    height: 210px;
+
+    background: rgba(217, 217, 217, 0.5);
+    border-radius: 5px;
+    margin-top: 30px;
+
+    /* Your Massage */
+
+    /* Title/16PX Regular */
+    font-family: "Poppins";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    /* identical to box height, or 150% */
+
+    /* Text2 */
+    color: #000000;
+
+    opacity: 0.5;
+    padding: 13px;
+    outline: none;
+    border: none;
+  }
+  &__btn {
+    margin-left: 600px;;
+  }
+}
