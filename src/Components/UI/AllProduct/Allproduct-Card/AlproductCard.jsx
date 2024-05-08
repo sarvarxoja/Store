@@ -18,7 +18,7 @@ const AlproductCard = ({ text, imgUrl, price, ratingImg, shopQuantity }) => {
                         </div>
                     </div>
                 </div>
-                <img src={imgUrl} alt="" />
+                <img className='allproduct__img' src={imgUrl} alt="" />
             </div>
             <h4 className="chegirma__card-title allproduct__subtitle">
                 {text}

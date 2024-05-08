@@ -1,4 +1,4 @@
-.notefound {
+.ommabop {
   width: 100%;
   margin-top: 100px;
   &__container {
@@ -6,10 +6,7 @@
     margin: 50px auto;
   }
   &__title {
-    /* Kataloglar */
-
-    width: 191px;
-    height: 48px;
+    /* Ommabop mahsulotlar */
 
     /* Heading/36PX SemiBold */
     font-family: "Inter";
@@ -27,5 +24,21 @@
     flex: none;
     order: 0;
     flex-grow: 0;
+  }
+  &__slider {
+    margin-top: 50px;
+  }
+}
+
+@media only screen and (max-width: 440px) {
+  .ommabop {
+    margin-top: 50px;
+    &__title {
+      font-size: 25px;
+    }
+
+    &__container {
+      width: 390px;
+    }
   }
 }

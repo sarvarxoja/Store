@@ -36,7 +36,6 @@
     transition: all 0.3s ease-in;
     &:hover {
       background-color: #00a3ff;
-   
     }
     display: flex;
     flex-direction: column;
@@ -58,6 +57,30 @@
     font-size: 16px;
     line-height: 24px;
     color: #000000;
-  
+  }
+}
+@media only screen and (max-width: 440px) {
+  .catalog {
+    &__container {
+      width: 390px;
+    }
+    &__title {
+      font-size: 25px;
+    }
+    &__card {
+      width: 80px;
+      height: 80px;
+      gap: 10px;
+    }
+    &__img {
+      width: 30px;
+    }
+    &__text {
+      /* Kompyuter */
+
+      font-weight: 400;
+      font-size: 10px;
+      line-height: 24px;
+    }
   }
 }

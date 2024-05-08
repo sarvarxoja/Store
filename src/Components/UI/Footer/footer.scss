@@ -117,3 +117,21 @@
     border-radius: 5px;
   }
 }
+@media only screen and (max-width: 440px) {
+  .footer {
+    &__container {
+      width: 390px;
+    }
+    &__cards {
+      flex-wrap: wrap;
+      // flex-direction: column;
+      gap: 10px;
+    }
+    &__card:last-child{
+      display: none;
+    }
+    &__text{
+      width: 150px;
+    }
+  }
+}

@@ -2,9 +2,11 @@ import React from 'react'
 import './notefound.scss'
 const NoteFound = () => {
     return (
-        <h2>
-            PAGE NOT FOUND
-        </h2>
+        <div className="notefound">
+            <div className="notefound__container">
+                <h1 className='notefound__title'> 404 Error</h1>
+            </div>
+        </div>
     )
 }
 

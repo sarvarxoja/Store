@@ -7,7 +7,7 @@ import FooterBottom from '../UI/Footerbottom/FooterBottom'
 
 const Layout = () => {
     return (
-        <div>
+        <div className='Container'>
             <div className="wrapper">
                 <div className="topNav">
                     <TopNav />
@@ -18,8 +18,8 @@ const Layout = () => {
             </div>
             <Router />
             <div className="FOOTER">
-                <Footer />
-                <FooterBottom />
+                 <Footer />
+               <FooterBottom />
             </div>
         </div>
     )

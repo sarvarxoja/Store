@@ -27,7 +27,7 @@ const Intro = () => {
                             <button className='intro__btn'>Shop naw</button>
                         </div>
 
-                        <img src={imgBg2} alt="" />
+                        <img className='intro__leftimg' src={imgBg2} alt="" />
                     </div>
                     <div className='intro__slider'>
                         <div className="intro__slider__left">
@@ -40,7 +40,7 @@ const Intro = () => {
 
                             <button className='intro__btn'>Shop naw</button>
                         </div>
-                        <img src={imgBg} alt="" />
+                        <img className='intro__leftimg' src={imgBg} alt="" />
                     </div>
                     <div className='intro__slider'>
                         <div className="intro__slider__left">
@@ -53,7 +53,7 @@ const Intro = () => {
 
                             <button className='intro__btn'>Shop naw</button>
                         </div>
-                        <img src={imgBg} alt="" />
+                        <img className='intro__leftimg' src={imgBg} alt="" />
                     </div>
                     <div className='intro__slider'>
                         <div className="intro__slider__left">
@@ -66,7 +66,7 @@ const Intro = () => {
 
                             <button className='intro__btn'>Shop naw</button>
                         </div>
-                        <img src={imgBg} alt="" />
+                        <img className='intro__leftimg' src={imgBg} alt="" />
                     </div>
 
                 </Slider>

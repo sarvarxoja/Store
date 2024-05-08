@@ -12,7 +12,7 @@ const Navbar = () => {
                         <NavLink to="/" className="navbar__link">Bosh sahifa</NavLink>
                     </li>
                     <li className="navbar__item">
-                        <NavLink to="/catalog" className="navbar__link">Katalog</NavLink>
+                        <NavLink to="/catalogs" className="navbar__link">Katalog</NavLink>
                     </li>     <li className="navbar__item">
                         <NavLink to="/about" className="navbar__link">Haqimizda</NavLink>
                     </li>     <li className="navbar__item">
@@ -31,6 +31,11 @@ const Navbar = () => {
                             Aloqaga chiqish
                         </span>
                     </a>
+                    <div className="navbar__burger">
+                        <hr className="navbar__hr" />
+                        <hr className="navbar__hr" />
+                        <hr className="navbar__hr" />
+                    </div>
                 </div>
             </div>
         </div>

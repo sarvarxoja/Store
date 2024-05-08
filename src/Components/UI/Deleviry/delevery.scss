@@ -53,3 +53,22 @@
     flex-grow: 0;
   }
 }
+@media only screen and (max-width: 440px) {
+  .delevery {
+    &__container {
+      width: 390px;
+    }
+    &__cards {
+      flex-direction: column;
+      gap: 100px;
+    }
+    &__title {
+      width: 253px;
+    }
+    &__card {
+      display: flex;
+      flex-direction: column;
+      gap: 20px;
+    }
+  }
+}

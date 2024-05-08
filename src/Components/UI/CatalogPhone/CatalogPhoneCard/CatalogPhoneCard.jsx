@@ -1,7 +1,7 @@
 import React from 'react'
 import { NavLink } from 'react-router-dom'
-// import imgUrl from '../../../../assets/Images/stul.png'
-const ChegirmaCard = ({ text, imgUrl, newPrice, oldPrice }) => {
+
+const CatalogPhoneCard = ({ title, text, newPrice, img4, oldPrice }) => {
     return (
         <div className='chegirma__card'>
             <div className="chegirma__card-box">
@@ -10,7 +10,7 @@ const ChegirmaCard = ({ text, imgUrl, newPrice, oldPrice }) => {
                         -35%
                     </p>
 
-                    <div className='chegirma__card-boxElement'>
+                    <div>
                         <div>
                             <i className="ri-heart-line"></i>
                         </div>
@@ -19,10 +19,10 @@ const ChegirmaCard = ({ text, imgUrl, newPrice, oldPrice }) => {
                         </div>
                     </div>
                 </div>
-                <img className='chegirma__card-img' src={imgUrl} alt="" />
+                <img className='catalogphone__images' src={img4} alt="" />
             </div>
             <h4 className="chegirma__card-title">
-                {text}
+                {title.slice(0, 20)}
             </h4>
             <div className='chegirma__card-bottom'>
                 <div>
@@ -33,10 +33,10 @@ const ChegirmaCard = ({ text, imgUrl, newPrice, oldPrice }) => {
                         ${oldPrice}
                     </h4>
                 </div>
-                <NavLink to={`catalog/${newPrice, text}`} className='intro__btn chegirma__btn'>Buyurtma Berish</NavLink>
+                <NavLink to={`catalog/${text}`} className='intro__btn chegirma__btn'>Buyurtma Berish</NavLink>
             </div>
         </div>
     )
 }
 
-export default ChegirmaCard
+export default CatalogPhoneCard

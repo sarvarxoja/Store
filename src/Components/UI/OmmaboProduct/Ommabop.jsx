@@ -1,9 +1,10 @@
+
 import React from 'react'
-import './chegirma.scss'
-import Slider from 'react-slick';
-import ChegirmaCard from './Chegirma-Card/ChegirmaCard';
+import './ommabop.scss'
+import Slider from 'react-slick'
 import ChegirmaData from '../../../assets/Fetch-data/chegirma';
-const Chegirma = () => {
+import ChegirmaCard from '../Chegirma/Chegirma-Card/ChegirmaCard';
+const Ommabop = () => {
     var settings = {
         dots: true,
         infinite: false,
@@ -39,23 +40,19 @@ const Chegirma = () => {
         ]
     };
     return (
-        <div className="chegirma">
-            <div className="chegirma__container">
-                <h2 className="chegirma__title">Yangi chegirmalar</h2>
-
-                <div className="slider-container">
-                    <Slider className='chegirma__slider' {...settings}>
-                        {ChegirmaData.map(item => (
-                            <ChegirmaCard key={item.id} {...item} />
-                        ))}
-
-                    </Slider>
-                </div>
-
-                <button className='intro__btn chegirma__bottombtn'>Barchasini ko'rish</button>
+        <div className="ommabop">
+            <div className="ommabop__container">
+                <h2 className="ommabop__title">
+                    Ommabop mahsulotlar
+                </h2>
+                <Slider className='ommabop__slider' {...settings}>
+                    {ChegirmaData.map(item => (
+                        <ChegirmaCard key={item.id} {...item} />
+                    ))}
+                </Slider>
             </div>
         </div>
     )
 }
 
-export default Chegirma
+export default Ommabop

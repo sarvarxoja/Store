@@ -33,10 +33,34 @@
   }
   &__subtitle {
     width: 100%;
-    margin: 12px 0 ;
+    margin: 12px 0;
   }
   &__btn {
-    width: 250px ;
+    width: 250px;
     margin: 50px 500px;
+  }
+}
+
+@media only screen and (max-width: 440px) {
+  .allproduct {
+    display: none;
+    margin-top: 50px;
+    &__container {
+      width: 390px;
+    }
+    &__title {
+      font-size: 25px;
+    }
+    &__cards {
+    }
+    &__card {
+      width: 140px;
+    }
+    &__btn {
+      display: none;
+    }
+    &__img {
+      width: 120px;
+    }
   }
 }

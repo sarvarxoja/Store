@@ -1,0 +1,19 @@
+.catalogphone {
+  width: 100%;
+  margin-top: 100px;
+  &__container {
+    width: 1250px;
+    margin: 50px auto;
+  }
+  &__cards {
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 50px;
+    justify-content: space-between;
+  }
+  &__images{
+    width: 150px;
+  }
+}
+
