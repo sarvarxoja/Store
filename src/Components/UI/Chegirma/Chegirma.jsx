@@ -3,6 +3,7 @@ import './chegirma.scss'
 import Slider from 'react-slick';
 import ChegirmaCard from './Chegirma-Card/ChegirmaCard';
 import ChegirmaData from '../../../assets/Fetch-data/chegirma';
+import { NavLink } from 'react-router-dom';
 const Chegirma = () => {
     var settings = {
         dots: true,
@@ -52,7 +53,9 @@ const Chegirma = () => {
                     </Slider>
                 </div>
 
-                <button className='intro__btn chegirma__bottombtn'>Barchasini ko'rish</button>
+               <NavLink to='catalogs/elem'>
+                    <button className='intro__btn chegirma__bottombtn'>Barchasini ko'rish</button>
+               </NavLink>
             </div>
         </div>
     )
