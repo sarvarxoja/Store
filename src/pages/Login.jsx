@@ -25,6 +25,8 @@ const Login = () => {
   const handleChecked = () => {
     setChecked(!checked)
   }
+
+
   const re =
     /^(([^<>()[\]\.,;:\s@\"]+(\.[^<>()[\]\.,;:\s@\"]+)*)|(\".+\"))@(([^<>()[\]\.,;:\s@\"]+\.)+[^<>()[\]\.,;:\s@\"]{2,})$/i;
 
@@ -33,15 +35,23 @@ const Login = () => {
     e.preventDefault()
     //check Password
 
+
     if (password.length < 8) {
-      setMessage("Parol 8 belgidan kam ")
-      setTimeout(() => {
-        setMessage('')
-      }, 2500);
+      return (
+        setMessage("Password invalid"),
+        setTimeout(() => {
+          setMessage("");
+        }, 2500)
+      );
     }
     // check Email
     if (!re.test(email)) {
-      setMessage('Email xato !!!')
+      return (
+        setMessage('Email xato !!!'),
+        setTimeout(() => {
+          setMessage('')
+        }, 2500)
+      )
     }
 
     const newUsers = {
@@ -53,11 +63,13 @@ const Login = () => {
       "POST",
       JSON.stringify(newUsers)
     ).then(
-      alert("seccessfull validation "),
+      alert('Successfull validation'),
 
       setName(""),
       setPassword(""),
-      setEmail("")
+      setEmail(""),
+      setChecked(!checked)
+
     );
 
   }
@@ -81,6 +93,14 @@ const Login = () => {
 
             <input id={checked ? 'submit' : 'unsubmit'} required type="submit" className='login__submit intro__btn' value='Yuborish' />
           </form>
+
+          <div className="login__modal">
+            <span className='login__sircle'>
+              <i className="ri-check-line"></i>
+
+            </span>
+            <p className='login__subtext'>Successfull Validation</p>
+          </div>
         </div>
       </div>
     </div>
