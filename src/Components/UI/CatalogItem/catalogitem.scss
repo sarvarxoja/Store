@@ -215,3 +215,47 @@
     gap: 10px;
   }
 }
+
+@media only screen and (max-width: 440px) {
+  .catalogitem {
+    &__container {
+      width: 390px;
+    }
+    &__boxes {
+      flex-direction: column;
+    }
+    &__box{
+      &-circle{
+        width: 330px;
+      }
+      &-text{
+        width: 250px;
+      }
+    }
+    &__left {
+      flex-direction: column;
+    }
+    &__images {
+      display: none;
+    }
+    &__img-card {
+      width: 390px;
+      height: 300px;
+    }
+    &__title {
+      width: 200px;
+    }
+    &__top {
+      width: 350px;
+    }
+    &__text {
+      width: 350px;
+    }
+    &__hr{
+      width: 300px;
+    }
+    &__img{
+      width: 300px;
+    }
+  }
+}

@@ -13,7 +13,7 @@ const CatalogItem = () => {
     return (
         <div className="catalogitem">
             <div className="catalogitem__container">
-                <div className="contact__top">
+                <div className="contact__top catalogitem__top">
                     <NavLink className='contact__home' to='/'>Bosh sahifa</NavLink> /
                     <NavLink className='contact__link contact__home' to='/catalog'>Katalog</NavLink> /
                     <NavLink className='contact__link ' to='/catalog/notebook'>Notebook/ {name} </NavLink>

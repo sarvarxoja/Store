@@ -72,8 +72,8 @@
     border-radius: 4px;
     text-align: center;
     transition: all 0.3s ease-in-out;
-    &:hover{
-        background-color: rgb(49, 198, 221);
+    &:hover {
+      background-color: rgb(49, 198, 221);
     }
     &-title {
       font-family: "Inter";
@@ -106,6 +106,31 @@
       flex: none;
       order: 1;
       flex-grow: 0;
+    }
+  }
+}
+
+@media only screen and (max-width: 440px) {
+  .about {
+    &__container {
+      width: 390px;
+    }
+    &__boxes {
+      flex-direction: column;
+      gap: 50px;
+    }
+    &__title {
+      font-size: 25px;
+    }
+    &__text {
+      width: 390px;
+    }
+    &__images {
+      width: 390px;
+    }
+    &__cards {
+      flex-direction: column;
+      gap: 50px;
     }
   }
 }
