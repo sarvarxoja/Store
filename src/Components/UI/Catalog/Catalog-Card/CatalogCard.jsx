@@ -1,9 +1,9 @@
 import React from 'react'
-import { NavLink, useParams } from 'react-router-dom'
+import { NavLink, } from 'react-router-dom'
 
 const CatalogCard = ({ text, imgUrl }) => {
     return (
-        <NavLink to={`/catalog/phones`}>
+        <NavLink to='/catalogs'>
 
             <div className='catalog__card'>
 

@@ -12,8 +12,15 @@
     gap: 50px;
     justify-content: space-between;
   }
-  &__images{
+  &__images {
     width: 150px;
   }
 }
 
+@media only screen and (max-width: 440px) {
+  .catalogphone {
+    &__container {
+      width: 390px;
+    }
+  }
+}
