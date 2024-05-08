@@ -3,7 +3,7 @@ import { NavLink, } from 'react-router-dom'
 
 const CatalogCard = ({ text, imgUrl }) => {
     return (
-        <NavLink to='/catalogs'>
+        <NavLink to='/catalogs/elem'>
 
             <div className='catalog__card'>
 

@@ -2,6 +2,7 @@ import './intro.scss'
 import Slider from "react-slick";
 import imgBg from '../../../assets/Images/ROGX.png'
 import imgBg2 from '../../../assets/Images/laptop.png'
+import { NavLink } from 'react-router-dom';
 const Intro = () => {
     var settings = {
         dots: true,
@@ -24,7 +25,9 @@ const Intro = () => {
                                 Lorem ipsum dolor sit amet consectetur.
                             </p>
 
-                            <button className='intro__btn'>Shop naw</button>
+                         <NavLink to='/catalogs/elem'>
+                                <button className='intro__btn'>Shop naw</button>
+                         </NavLink>
                         </div>
 
                         <img className='intro__leftimg' src={imgBg2} alt="" />
@@ -38,7 +41,9 @@ const Intro = () => {
                                 Lorem ipsum dolor sit amet consectetur.
                             </p>
 
-                            <button className='intro__btn'>Shop naw</button>
+                            <NavLink to='/catalogs/elem'>
+                                <button className='intro__btn'>Shop naw</button>
+                            </NavLink>
                         </div>
                         <img className='intro__leftimg' src={imgBg} alt="" />
                     </div>
@@ -51,7 +56,9 @@ const Intro = () => {
                                 Lorem ipsum dolor sit amet consectetur.
                             </p>
 
-                            <button className='intro__btn'>Shop naw</button>
+                            <NavLink to='/catalogs/elem'>
+                                <button className='intro__btn'>Shop naw</button>
+                            </NavLink>
                         </div>
                         <img className='intro__leftimg' src={imgBg} alt="" />
                     </div>
@@ -64,7 +71,9 @@ const Intro = () => {
                                 Lorem ipsum dolor sit amet consectetur.
                             </p>
 
-                            <button className='intro__btn'>Shop naw</button>
+                            <NavLink to='/catalogs/elem'>
+                                <button className='intro__btn'>Shop naw</button>
+                            </NavLink>
                         </div>
                         <img className='intro__leftimg' src={imgBg} alt="" />
                     </div>

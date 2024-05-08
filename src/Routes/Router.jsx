@@ -10,7 +10,7 @@ import CatalogPhone from '../Components/UI/CatalogPhone/CatalogPhone'
 
 const Router = () => {
     return (
-       <div className='routes'>
+        <div className='routes'>
             <Routes >
                 <Route path='/' element={<Home />} />
                 <Route path='/catalog/phones' element={<CatalogPhone />} />
@@ -20,8 +20,10 @@ const Router = () => {
                 <Route path='/catalog/:name' element={<CatalogItem />} />
                 <Route path='/catalogs' element={<Catalogs />} />
                 <Route path='*' element={<NoteFound />} />
+                <Route path='/catalogs/elem' element={<CatalogPhone />} />
+                <Route path='/catalog/item' element={<CatalogItem />}
             </Routes>
-       </div>
+        </div>
     )
 }
 

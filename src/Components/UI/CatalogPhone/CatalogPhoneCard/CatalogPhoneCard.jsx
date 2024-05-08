@@ -33,7 +33,7 @@ const CatalogPhoneCard = ({ title, text, newPrice, img4, oldPrice }) => {
                         ${oldPrice}
                     </h4>
                 </div>
-                <NavLink to={`catalog/${text}`} className='intro__btn chegirma__btn'>Buyurtma Berish</NavLink>
+                <NavLink to='/catalog/item' className='intro__btn chegirma__btn'>Buyurtma Berish</NavLink>
             </div>
         </div>
     )

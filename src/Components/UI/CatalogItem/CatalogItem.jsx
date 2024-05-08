@@ -8,14 +8,14 @@ import imgrating from '../../../assets/Images/five.png'
 
 import './catalogitem.scss'
 const CatalogItem = () => {
-  
+
     const { name } = useParams()
     return (
         <div className="catalogitem">
             <div className="catalogitem__container">
                 <div className="contact__top catalogitem__top">
                     <NavLink className='contact__home' to='/'>Bosh sahifa</NavLink> /
-                    <NavLink className='contact__link contact__home' to='/catalog'>Katalog</NavLink> /
+                    <NavLink className='contact__link contact__home' to='/catalogs'>Katalog</NavLink> /
                     <NavLink className='contact__link ' to='/catalog/notebook'>Notebook/ {name} </NavLink>
                 </div>
                 <div className='catalogitem__boxes'>
@@ -31,7 +31,7 @@ const CatalogItem = () => {
                     <div className="catalogitem__right">
                         <div className="catalogitem__card">
                             <h4 className="catalogitem__title">
-                                {name}
+                                ASUS ROG Strix SCAR 17 SE G733CX-LL091W Black Stealth
                             </h4>
                             <span className='catalogitem__rating'>
                                 <img src={imgrating} alt="" />
