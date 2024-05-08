@@ -1,6 +1,6 @@
-import React, { useState } from 'react'
 import '../styles/login.scss'
 import useHttp from '../hooks/useHttp'
+import { useState } from 'react'
 const Login = () => {
   const { request } = useHttp()
   const [name, setName] = useState('')
@@ -79,7 +79,7 @@ const Login = () => {
               </label>
             </div>
 
-            <input required type="submit" className='login__submit intro__btn' value='Yuborish' />
+            <input id={checked ? 'submit' : 'unsubmit'} required type="submit" className='login__submit intro__btn' value='Yuborish' />
           </form>
         </div>
       </div>

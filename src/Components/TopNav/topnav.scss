@@ -65,6 +65,12 @@
 }
 @media only screen and (max-width: 440px) {
   .topnav {
-    display: none;
+    // display: none;
+    &__container{
+      width: 390px;
+    }
+    &__text{
+      display: none;
+    }
   }
 }
