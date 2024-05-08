@@ -88,7 +88,7 @@
     color: #ffffff;
   }
   &__burger {
-    display: flex;
+    display: none;
     flex-direction: column;
     gap: 4px;
   }
@@ -105,7 +105,7 @@
     margin: 0;
     padding: 5px 10px;
     &__container {
-      width: 390px;
+      width: 370px;
     }
     &__list {
       display: none;
@@ -131,6 +131,9 @@
     &__search i{
       color: #ffffff;
       font-size: 20px;
+    }
+    &__burger{
+      display: flex;
     }
   }
 }
