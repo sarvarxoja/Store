@@ -29,3 +29,10 @@
     flex-grow: 0;
   }
 }
+@media only screen and (max-width: 440px) {
+  .notefound {
+    &__container {
+      width: 390px;
+    }
+  }
+}
