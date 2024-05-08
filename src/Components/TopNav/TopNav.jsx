@@ -19,7 +19,7 @@ const TopNav = () => {
                <NavLink to='/login'>
                     <div className="topnav__right">
                         <i className="ri-login-box-line"></i>
-                        <span className='topnav__login'>Log In</span>
+                        <span className='topnav__login'>Tizimga kirish</span>
                     </div>
                </NavLink>
             </div>
