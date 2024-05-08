@@ -1,0 +1,42 @@
+{
+  "users": [
+    {
+      "id": 1,
+      "title": "reputatsiya",
+      "name": "Feruz"
+    },
+    {
+      "id": 2
+    },
+    {
+      "name": "fwcwcw",
+      "password": "cwcwcwcwcwc",
+      "email": "wcwcww@vevee.com",
+      "id": 3
+    },
+    {
+      "name": "salom",
+      "password": "1132313cwFcw",
+      "email": "prog@dmgmail.com",
+      "id": 4
+    },
+    {
+      "name": "Salomhammaga",
+      "password": "1w1786e827e7812e1",
+      "email": "ccecece@ciwcwgmail.com",
+      "id": 5
+    },
+    {
+      "id": "792b",
+      "name": "Muslim",
+      "email": "programistc7@gmail.com",
+      "password": "wcwcgwcgwcw"
+    },
+    {
+      "id": "1a34",
+      "name": "Feruz",
+      "email": "tursunboyevjonibek1@gmail.com",
+      "password": "wcwcwcwcww"
+    }
+  ]
+}

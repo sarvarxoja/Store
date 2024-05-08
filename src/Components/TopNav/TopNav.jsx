@@ -1,5 +1,6 @@
 import React from 'react'
 import './topnav.scss'
+import { NavLink } from 'react-router-dom'
 const TopNav = () => {
     return (
 
@@ -15,10 +16,12 @@ const TopNav = () => {
                 <span className='topnav__text'>
                     Buyurtmalaringizni bepul yetkazib beramiz - atiga 1 kun ichida
                 </span>
-                <div className="topnav__right">
-                    <i className="ri-login-box-line"></i>
-                    <span className='topnav__login'>Log In</span>
-                </div>
+               <NavLink to='/login'>
+                    <div className="topnav__right">
+                        <i className="ri-login-box-line"></i>
+                        <span className='topnav__login'>Log In</span>
+                    </div>
+               </NavLink>
             </div>
         </div>
     )

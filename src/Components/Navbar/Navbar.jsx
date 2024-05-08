@@ -14,7 +14,10 @@ const Navbar = () => {
 
         <div className="navbar">
             <div className="navbar__container">
-                <h2 className="navbar__logo">Brand Logo</h2>
+                <NavLink to='/' >
+
+                    <h2 className="navbar__logo">Brand Logo</h2>
+                </NavLink>
                 <ul id={show ? 'block' : 'hidden'} className="navbar__list">
                     <i id='navbar__close' onClick={() => {
                         handleMenu()

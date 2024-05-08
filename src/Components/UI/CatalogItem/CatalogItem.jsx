@@ -16,7 +16,7 @@ const CatalogItem = () => {
                 <div className="contact__top catalogitem__top">
                     <NavLink className='contact__home' to='/'>Bosh sahifa</NavLink> /
                     <NavLink className='contact__link contact__home' to='/catalogs'>Katalog</NavLink> /
-                    <NavLink className='contact__link ' to='/catalog/notebook'>Notebook/ {name} </NavLink>
+                    <NavLink className='contact__link ' to='/catalog/notebook'>Notebook </NavLink>
                 </div>
                 <div className='catalogitem__boxes'>
                     <div className="catalogitem__left">
