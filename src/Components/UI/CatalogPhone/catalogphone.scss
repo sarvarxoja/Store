@@ -22,5 +22,18 @@
     &__container {
       width: 90%;
     }
+    &__cards{
+      gap: 0px;
+    }
+    &__card{
+      width: 150px;
+      margin-bottom: 50px;
+    }
+    &__images{
+      width: 100px;
+      margin: 5px 0;
+
+    }
+
   }
 }

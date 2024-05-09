@@ -3,7 +3,7 @@ import { NavLink } from 'react-router-dom'
 
 const CatalogPhoneCard = ({ title, text, newPrice, img4, oldPrice }) => {
     return (
-        <div className='chegirma__card'>
+        <div className='chegirma__card catalogphone__card'>
             <div className="chegirma__card-box">
                 <div>
                     <p className="chegirma__card-text">
