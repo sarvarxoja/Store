@@ -17,10 +17,10 @@
   }
 }
 
-@media only screen and (max-width: 440px) {
+@media only screen and (max-width: 768px) {
   .catalogphone {
     &__container {
-      width: 390px;
+      width: 90%;
     }
   }
 }

@@ -61,12 +61,12 @@
     }
   }
 }
-@media only screen and (max-width: 440px) {
+@media only screen and (max-width: 768px) {
   .intro {
     padding: 10px;
     margin-top: 20px;
     &__container {
-      width: 390px;
+      width: 90%;
     }
     &__slider {
       // flex-direction: column;
@@ -74,7 +74,7 @@
       border-bottom-right-radius: 20px;
       gap: 0;
       padding: 35px;
-      justify-content: start;
+      justify-content: space-evenly;
     }
     &__title {
       /* New Laptop */
@@ -106,7 +106,7 @@
       border-radius: 4px;
     }
     &__leftimg {
-      width: 250px;
+      width: 55%;
     }
   }
 }

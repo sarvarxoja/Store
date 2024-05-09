@@ -102,20 +102,20 @@
   }
 }
 
-@media only screen and (max-width: 440px) {
+@media only screen and (max-width: 768px) {
   .navbar {
     background-color: #000000;
     margin: 0;
     padding: 5px 10px;
     &__container {
-      width: 370px;
+      width: 90%;
     }
     &__list {
       position: absolute;
       display: flex;
       flex-direction: column;
       top: 110px;
-      width: 370px;
+      width: 90%;
       background-color: black;
       padding: 10px 20px;
       z-index: 100;
@@ -166,3 +166,4 @@
     display: flex;
   }
 }
+

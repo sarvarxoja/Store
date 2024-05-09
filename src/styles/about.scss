@@ -110,10 +110,10 @@
   }
 }
 
-@media only screen and (max-width: 440px) {
+@media only screen and (max-width: 768px) {
   .about {
     &__container {
-      width: 390px;
+      width: 90%;
     }
     &__boxes {
       flex-direction: column;
@@ -121,16 +121,20 @@
     }
     &__title {
       font-size: 25px;
+      width: 100%;
     }
     &__text {
-      width: 390px;
+      width: 100%;
     }
     &__images {
-      width: 390px;
+      width: 100%;
     }
     &__cards {
       flex-direction: column;
       gap: 50px;
+    }
+    &__card{
+      width: 100%;
     }
   }
 }

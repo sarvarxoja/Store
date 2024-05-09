@@ -63,16 +63,16 @@
     flex-grow: 0;
   }
 }
-@media only screen and (max-width: 440px) {
+@media only screen and (max-width: 768px) {
   .topnav {
     // display: none;
-    &__container{
-      width: 390px;
+    &__container {
+      width: 90%;
     }
-    &__text{
+    &__text {
       display: none;
     }
-    &__city{
+    &__city {
       font-size: 12px;
       width: 200px;
     }

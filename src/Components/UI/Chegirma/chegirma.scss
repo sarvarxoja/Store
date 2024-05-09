@@ -131,14 +131,14 @@
   }
   &__bottombtn {
     width: 200px;
-    margin: 50px 530px;
+    margin-top: 50px;
   }
 }
 
-@media only screen and (max-width: 440px) {
+@media only screen and (max-width: 768px) {
   .chegirma {
     &__container {
-      width: 390px;
+      width: 90%;
     }
     &__title {
       font-size: 25px;
@@ -170,8 +170,8 @@
         margin-right: 75px;
       }
     }
-    &__silder {
-      flex-direction: column;
+    &__slider {
+      width: 100%;
     }
     &__btn {
       width: 100%;
@@ -180,7 +180,6 @@
 
     &__bottombtn {
       width: 200px;
-      margin: 50px 100px;
     }
   }
 }

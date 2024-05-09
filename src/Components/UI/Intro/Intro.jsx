@@ -10,6 +10,9 @@ const Intro = () => {
         speed: 500,
         slidesToShow: 1,
         slidesToScroll: 1,
+        autoplay: true,
+        autoplaySpeed: 2000,
+        cssEase: "linear"
     };
 
     return (
@@ -25,9 +28,9 @@ const Intro = () => {
                                 Lorem ipsum dolor sit amet consectetur.
                             </p>
 
-                         <NavLink to='/catalogs/elem'>
+                            <NavLink to='/catalogs/elem'>
                                 <button className='intro__btn'>Shop naw</button>
-                         </NavLink>
+                            </NavLink>
                         </div>
 
                         <img className='intro__leftimg' src={imgBg2} alt="" />

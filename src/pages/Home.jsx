@@ -13,11 +13,10 @@ const Home = () => {
       <Intro />
       <Catalog />
       <Chegirma />
-      <Ommabop/>
+      <Ommabop />
       <NewProduct />
-     <Allproduct />
-         <Delevery /> 
-  
+      <Allproduct />
+      <Delevery />
     </>
   )
 }

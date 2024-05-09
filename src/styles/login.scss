@@ -103,16 +103,16 @@
   }
 }
 
-@media only screen and (max-width: 440px) {
+@media only screen and (max-width: 768px) {
   .login {
     &__container {
-      width: 390px;
+      width: 90%;
     }
     &__form {
-      width: 380px;
+      width: 90%;
     }
     &__modal {
-      width: 380px;
+      width: 90%;
       height: 150px;
       left: 25px;
     }

@@ -59,10 +59,10 @@
     color: #000000;
   }
 }
-@media only screen and (max-width: 440px) {
+@media only screen and (max-width: 768px) {
   .catalog {
     &__container {
-      width: 350px;
+      width: 80%;
     }
     &__title {
       font-size: 25px;
