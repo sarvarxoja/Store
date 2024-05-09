@@ -5,6 +5,26 @@
     width: 1250px;
     margin: 50px auto;
   }
+  &__title {
+    /* Yangi chegirmalar */
+
+    font-family: "Inter";
+    font-style: normal;
+    font-weight: 600;
+    font-size: 36px;
+    line-height: 48px;
+    /* or 133% */
+    letter-spacing: 0.04em;
+
+    /* Text2 */
+    color: #000000;
+
+    /* Inside auto layout */
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+    margin-bottom: 50px;
+  }
   &__cards {
     display: flex;
     align-items: center;
@@ -22,18 +42,19 @@
     &__container {
       width: 90%;
     }
-    &__cards{
+    &__title{
+      font-size: 25px;
+    }
+    &__cards {
       gap: 0px;
     }
-    &__card{
+    &__card {
       width: 150px;
       margin-bottom: 50px;
     }
-    &__images{
+    &__images {
       width: 100px;
       margin: 5px 0;
-
     }
-
   }
 }

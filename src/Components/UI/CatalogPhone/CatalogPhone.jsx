@@ -6,6 +6,7 @@ const CatalogPhone = () => {
     return (
         <div className="catalogphone">
             <div className="catalogphone__container">
+                <h2 className='catalogphone__title'>Barcha Mahsulotlar</h2>
                 <div className="catalogphone__cards">
                     {CatalogPhoneData.map((item, index) => (
                         <CatalogPhoneCard key={index} {...item} />
